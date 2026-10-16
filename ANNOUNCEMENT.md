@@ -1,8 +1,8 @@
 🚀 **Stop waiting for trn2 capacity: test your ideas for free first**
 
-Hey everyone 👋 FrontierForge here. Phase 1 is a wrap, and we've opened up the tool that got us from 0.9888 to 0.9614: a **Trainium simulator** that predicts your `val_bpb` *before* you spend a single chip hour.
+Hey everyone 👋 FrontierForge here. Phase 1 is a wrap, and we've opened up the tool that got us from 0.9888 to 0.9614: a **training simulator** that predicts your `val_bpb` *before* you spend a single chip hour.
 
-📦 **Get it here (code, data, app and our best recipe):** https://github.com/Marker2601/trainium-simulator
+📦 **Get it here (code, data, app and our best recipe):** https://github.com/Marker2601/training-simulator
 
 **What it does**
 • 🔮 *Predict a recipe*: set depth, width, LRs, cooldown, batch schedule and time budget, and get the predicted Trainium `val_bpb`, step count and step time, plus the expected official score

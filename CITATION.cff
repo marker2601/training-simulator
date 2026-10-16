@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
-title: "FrontierForge: a Trainium run simulator and exact-oracle score prediction"
+title: "FrontierForge: a training-run simulator and exact-oracle score prediction"
 abstract: >-
   ffsim predicts the steps, step time and validation bits-per-byte of a
   language-model training recipe on AWS Trainium without spending chip time.
@@ -15,8 +15,8 @@ authors:
     family-names: "Gorla"
     affiliation: "Independent researcher (team FrontierForge)"
     orcid: "https://orcid.org/0009-0002-2270-831X"
-repository-code: "https://github.com/marker2601/trainium-simulator"
-url: "https://github.com/marker2601/trainium-simulator"
+repository-code: "https://github.com/marker2601/training-simulator"
+url: "https://github.com/marker2601/training-simulator"
 license: MIT
 version: "1.0.0"
 date-released: "2026-10-01"
@@ -28,7 +28,7 @@ keywords:
   - val_bpb
 preferred-citation:
   type: software
-  title: "FrontierForge: a Trainium run simulator and exact-oracle score prediction"
+  title: "FrontierForge: a training-run simulator and exact-oracle score prediction"
   authors:
     - given-names: "Jagadeesh Kumar"
       family-names: "Gorla"
@@ -36,6 +36,6 @@ preferred-citation:
       orcid: "https://orcid.org/0009-0002-2270-831X"
   year: 2026
   version: "1.0.0"
-  repository-code: "https://github.com/marker2601/trainium-simulator"
-  url: "https://github.com/marker2601/trainium-simulator"
+  repository-code: "https://github.com/marker2601/training-simulator"
+  url: "https://github.com/marker2601/training-simulator"
   license: MIT

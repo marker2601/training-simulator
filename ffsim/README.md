@@ -1,4 +1,4 @@
-# ffsim: the FrontierForge Trainium run simulator
+# ffsim: the FrontierForge training-run simulator
 
 Predict the official val_bpb of a candidate recipe without spending Trainium time, score hundreds of
 candidates in seconds, and get back the short list worth confirming on the chip.

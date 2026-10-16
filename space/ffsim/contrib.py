@@ -79,7 +79,7 @@ DEFAULT_STATS = ROOT / "contrib" / "stats.json"
 SPACE_CONTRIB = ROOT / "space" / "research" / "sim-data" / "contrib" / "runs-contrib.jsonl"
 EXAMPLES = PKG / "examples"
 
-GITHUB_REPO = "marker2601/trainium-simulator"
+GITHUB_REPO = "marker2601/training-simulator"
 ISSUE_TEMPLATE = "run-submission.yml"
 ISSUE_FIELD = "record"            # the id of the JSON textarea in .github/ISSUE_TEMPLATE/run-submission.yml
 ISSUE_URL_MAX = 7000
@@ -106,7 +106,7 @@ BASE_ANCHORS: Dict[str, Tuple[float, float, int]] = {"K82s4": (0.954472, 2388.0,
 CONTRIB_SOURCE = "contrib"
 README_START = "<!-- contrib-stats:start -->"
 README_END = "<!-- contrib-stats:end -->"
-CONSENT_TEXT = ("I agree that this record becomes public in the trainium-simulator repository (data under CC-BY-4.0, "
+CONSENT_TEXT = ("I agree that this record becomes public in the training-simulator repository (data under CC-BY-4.0, "
                 "code under MIT), that it may be used to fit and evaluate the simulator, and that it contains no "
                 "secrets, account ids or personal data.")
 
@@ -122,7 +122,7 @@ SCHEMA: Dict[str, Any] = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": f"https://github.com/{GITHUB_REPO}/blob/main/contrib/schema.json",
     "title": "ffsim contributed run record",
-    "description": ("One training run shared with the FrontierForge Trainium simulator. Everything in it becomes "
+    "description": ("One training run shared with the FrontierForge training simulator. Everything in it becomes "
                     "public (data CC-BY-4.0). No account ids, instance ids, keys, tokens, e-mail or IP addresses: "
                     "records containing anything that looks like one are rejected. Generated from "
                     "ffsim/contrib.py (python -m ffsim contrib schema)."),

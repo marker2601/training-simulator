@@ -1,4 +1,4 @@
-"""Part 1 of the Trainium run simulator: the step-time model (ffsim/CONTRACT.md).
+"""Part 1 of the training-run simulator: the step-time model (ffsim/CONTRACT.md).
 
     steps = charged_seconds / step_time(code, hardware, runtime)
 

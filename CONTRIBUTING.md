@@ -56,7 +56,7 @@ Pick one; they all end in the same reviewed pull request.
    my submission*. It validates the run, shows you the exact JSON that will be shared and the current model's
    prediction for it, and gives you a pre-filled GitHub issue link. The app sends nothing; you open the link and
    submit the issue yourself. (API: `/contrib_record`.)
-2. **The issue form.** Open a [Submit a training run](https://github.com/marker2601/trainium-simulator/issues/new?template=run-submission.yml)
+2. **The issue form.** Open a [Submit a training run](https://github.com/marker2601/training-simulator/issues/new?template=run-submission.yml)
    issue, paste the JSON, tick the consent box and submit.
 3. **The command line.** Check a record before you share it, then print its pre-filled issue link:
 

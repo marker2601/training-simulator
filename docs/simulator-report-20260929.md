@@ -1,4 +1,4 @@
-# ffsim: Trainium run simulator, integration report (29 Sep 2026, 6:30 PM CDT)
+# ffsim: training-run simulator, integration report (29 Sep 2026, 6:30 PM CDT)
 
 > Campaign-time report, published as written except for account details and private file references.
 > Section and log times are UTC as logged (UTC = CDT + 5 h). What happened after this report, including
