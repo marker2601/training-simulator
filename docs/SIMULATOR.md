@@ -1,4 +1,4 @@
-# The Trainium simulator (`ffsim`)
+# The training simulator (`ffsim`)
 
 `ffsim` predicts the official val_bpb of a candidate `train.py` recipe without spending Trainium time. It has two
 routes that answer different questions.

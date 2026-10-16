@@ -1,5 +1,5 @@
 ---
-title: FrontierForge Trainium Simulator
+title: FrontierForge Training Simulator
 emoji: 📈
 colorFrom: indigo
 colorTo: green
@@ -12,11 +12,11 @@ license: mit
 short_description: Predict Trainium val_bpb of a training recipe
 ---
 
-# FrontierForge Trainium simulator
+# FrontierForge training simulator
 
 Predict what a `train.py` recipe from the AWS Trainium Frontier challenge would score (val_bpb) without a chip
 run, and convert throughput gains into score. This Space is a front end for **ffsim** route 1, the numpy surrogate
-team FrontierForge built during Phase 1 (15 Sep - 1 Oct 2026). Full code, data and write-ups: https://github.com/Marker2601/trainium-simulator.
+team FrontierForge built during Phase 1 (15 Sep - 1 Oct 2026). Full code, data and write-ups: https://github.com/Marker2601/training-simulator.
 
 ## Tabs
 

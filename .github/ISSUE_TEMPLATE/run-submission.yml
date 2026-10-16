@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for helping the simulator learn. Paste **one** run record as JSON below
-        (format: [`contrib/schema.json`](https://github.com/marker2601/trainium-simulator/blob/main/contrib/schema.json);
+        (format: [`contrib/schema.json`](https://github.com/marker2601/training-simulator/blob/main/contrib/schema.json);
         the "Add my runs" tab of the app, or `python -m ffsim contrib issue-url my-run.json`, fills this in for you).
 
         **This issue is public the moment you submit it**, including its edit history. A GitHub Action checks the
@@ -51,5 +51,5 @@ body:
     attributes:
       label: Consent
       options:
-        - label: I agree that this record becomes public in the trainium-simulator repository (data under CC-BY-4.0, code under MIT), that it may be used to fit and evaluate the simulator, and that it contains no secrets, account ids or personal data.
+        - label: I agree that this record becomes public in the training-simulator repository (data under CC-BY-4.0, code under MIT), that it may be used to fit and evaluate the simulator, and that it contains no secrets, account ids or personal data.
           required: true

@@ -101,8 +101,8 @@ CDT on 1 Oct) rank #10 was 0.9554 and rank #1 was 0.9328, so we finished outside
 ## Quick start
 
 ```bash
-git clone https://github.com/marker2601/trainium-simulator.git
-cd trainium-simulator
+git clone https://github.com/marker2601/training-simulator.git
+cd training-simulator
 pip install -r requirements.txt
 python -m pytest -q tests/        # 385 pass, 7 skip (5 need the full private chip harvest, 2 need gradio)
 ```
@@ -185,7 +185,7 @@ tie, and anything flagged `EXTRAP`, `NEVER-VARIED` or "cost unknown" needs a spe
 
 ## Help the simulator learn
 
-[![Contributed runs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarker2601%2Ftrainium-simulator%2Fmain%2Fcontrib%2Fstats.json&query=%24.n_records&label=contributed%20runs&color=blue)](contrib/stats.json)
+[![Contributed runs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmarker2601%2Ftraining-simulator%2Fmain%2Fcontrib%2Fstats.json&query=%24.n_records&label=contributed%20runs&color=blue)](contrib/stats.json)
 
 <!-- contrib-stats:start -->Contributed runs so far: **0**. Be the first: the simulator refits on every merged submission (see [CONTRIBUTING.md](CONTRIBUTING.md)).<!-- contrib-stats:end -->
 
@@ -199,7 +199,7 @@ can send.
 
 1. **The app.** The "Add my runs" tab (`python space/app.py`) checks your run and builds a pre-filled GitHub issue
    link. Nothing is sent until you open the link and submit the issue yourself.
-2. **The issue form.** [Open a "Submit a training run" issue](https://github.com/marker2601/trainium-simulator/issues/new?template=run-submission.yml)
+2. **The issue form.** [Open a "Submit a training run" issue](https://github.com/marker2601/training-simulator/issues/new?template=run-submission.yml)
    and paste one JSON record (format: [`contrib/schema.json`](contrib/schema.json)).
 3. **The command line.** Check a record locally, then print its issue link:
 
@@ -310,10 +310,10 @@ in preparation; its LaTeX source is in [`paper/`](paper/), and an arXiv preprint
 ```bibtex
 @software{frontierforge_2026,
   author  = {Gorla, Jagadeesh Kumar},
-  title   = {FrontierForge: a Trainium run simulator and exact-oracle score prediction},
+  title   = {FrontierForge: a training-run simulator and exact-oracle score prediction},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/marker2601/trainium-simulator},
+  url     = {https://github.com/marker2601/training-simulator},
   license = {MIT}
 }
 ```

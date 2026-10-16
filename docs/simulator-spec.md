@@ -1,4 +1,4 @@
-# Trainium run simulator: design brief (29 Sep 2026)
+# training-run simulator: design brief (29 Sep 2026)
 
 > The brief the simulator was built from, edited for publication (private file references replaced,
 > times in CDT). The built system and its measured accuracy are in `docs/SIMULATOR.md`.

@@ -1,4 +1,4 @@
-"""FrontierForge Trainium simulator: a Gradio Space over `ffsim` route 1 (numpy surrogate).
+"""FrontierForge training simulator: a Gradio Space over `ffsim` route 1 (numpy surrogate).
 
 The three models (step time, quality, rehearsal -> official offset) are fitted from the shipped
 `research/sim-data` tables when the app starts (well under a second; no pickle is shipped or loaded).
@@ -42,7 +42,7 @@ UPLOADS = SIM_DATA / "official-uploads.csv"
 CONTRIB = SIM_DATA / "contrib" / "runs-contrib.jsonl"   # merged community runs (synced by the refit workflow)
 
 # Fill these two in before publishing (HF sets SPACE_ID itself inside a running Space).
-GITHUB_REPO_URL = os.environ.get("FF_GITHUB_REPO_URL", "https://github.com/Marker2601/trainium-simulator")
+GITHUB_REPO_URL = os.environ.get("FF_GITHUB_REPO_URL", "https://github.com/Marker2601/training-simulator")
 SPACE_ID = os.environ.get("SPACE_ID", "<owner>/<space-name>")
 
 BEST_OFFICIAL = 0.9617          # K77a: our best scored upload as of 30 Sep 2026 (K82s4 had not been scored then)
@@ -1093,8 +1093,8 @@ def build_ui() -> Any:
     import gradio as gr
 
     defaults = base_defaults(DEFAULT_BASE)
-    with gr.Blocks(title="FrontierForge Trainium simulator") as demo:
-        gr.Markdown("# FrontierForge Trainium simulator\n"
+    with gr.Blocks(title="FrontierForge training simulator") as demo:
+        gr.Markdown("# FrontierForge training simulator\n"
                     "Predict what a training recipe scores on AWS Trainium (val_bpb) without a chip run. "
                     "Start from our best published recipe, change knobs, and compare. "
                     "Read the **About** tab before trusting small differences.")

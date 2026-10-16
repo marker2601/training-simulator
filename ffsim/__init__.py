@@ -1,4 +1,4 @@
-"""ffsim: FrontierForge Trainium run simulator (see ffsim/CONTRACT.md).
+"""ffsim: FrontierForge training-run simulator (see ffsim/CONTRACT.md).
 
 official_bpb = quality(recipe, steps, seed) + offset(eval shard)
 steps        = charged_seconds / step_time(code, hardware, runtime)

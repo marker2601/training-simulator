@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/marker2601/trainium-simulator/blob/main/contrib/schema.json",
+  "$id": "https://github.com/marker2601/training-simulator/blob/main/contrib/schema.json",
   "title": "ffsim contributed run record",
-  "description": "One training run shared with the FrontierForge Trainium simulator. Everything in it becomes public (data CC-BY-4.0). No account ids, instance ids, keys, tokens, e-mail or IP addresses: records containing anything that looks like one are rejected. Generated from ffsim/contrib.py (python -m ffsim contrib schema).",
+  "description": "One training run shared with the FrontierForge training simulator. Everything in it becomes public (data CC-BY-4.0). No account ids, instance ids, keys, tokens, e-mail or IP addresses: records containing anything that looks like one are rejected. Generated from ffsim/contrib.py (python -m ffsim contrib schema).",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -160,7 +160,7 @@
     },
     "consent": {
       "const": true,
-      "description": "I agree that this record becomes public in the trainium-simulator repository (data under CC-BY-4.0, code under MIT), that it may be used to fit and evaluate the simulator, and that it contains no secrets, account ids or personal data."
+      "description": "I agree that this record becomes public in the training-simulator repository (data under CC-BY-4.0, code under MIT), that it may be used to fit and evaluate the simulator, and that it contains no secrets, account ids or personal data."
     }
   }
 }

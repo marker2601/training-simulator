@@ -669,7 +669,7 @@ def test_issue_body_round_trip_and_form_layout():
 def test_issue_url_is_encoded_bounded_and_decodes_to_the_record():
     rec = C.normalize_record(good())
     url = C.build_issue_url(rec)
-    assert url.startswith("https://github.com/marker2601/trainium-simulator/issues/new?template=run-submission.yml&")
+    assert url.startswith("https://github.com/marker2601/training-simulator/issues/new?template=run-submission.yml&")
     assert len(url) <= C.ISSUE_URL_MAX and " " not in url and "\n" not in url
     q = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)
     assert q["template"] == ["run-submission.yml"] and q["title"][0].startswith("[run] trn2.3xlarge K82s4")
