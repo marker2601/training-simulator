@@ -12,6 +12,7 @@ A simulator, a calibration method and a best recipe from Phase 1 of the AWS Trai
 [![AWS Trainium](https://img.shields.io/badge/AWS-Trainium%20%28trn2%29-FF9900.svg)](https://github.com/aws-neuron/trainium-frontier)
 [![Gradio](https://img.shields.io/badge/UI-Gradio-F97316.svg)](space/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2270--831X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2270-831X)
+[![Paper DOI](https://img.shields.io/badge/paper%20DOI-10.5281%2Fzenodo.24015047-1682D4.svg)](https://doi.org/10.5281/zenodo.24015047)
 
 [Quick start](#quick-start) &middot; [Results](#results) &middot; [Use it on your own runs](#use-it-on-your-own-runs) &middot; [Findings](#key-findings-tldr) &middot; [Limitations](#honest-limitations) &middot; [Cite](#cite-this-work)
 
@@ -303,11 +304,22 @@ tests/                 392 tests (385 pass, 7 skip: 5 need the private chip harv
 
 Author: Jagadeesh Kumar Gorla ([ORCID 0009-0002-2270-831X](https://orcid.org/0009-0002-2270-831X)).
 
-If `ffsim`, the exact-oracle method or the findings help your work, please cite the software
-([`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it). A paper describing the method is
-in preparation; its LaTeX source is in [`paper/`](paper/), and an arXiv preprint will follow.
+If `ffsim`, the exact-oracle method or the findings help your work, please cite the paper, and the software if you
+use the code ([`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it). The paper is on Zenodo
+as a preprint ([doi:10.5281/zenodo.24015047](https://doi.org/10.5281/zenodo.24015047)); its LaTeX source is in
+[`paper/`](paper/).
 
 ```bibtex
+@misc{gorla_rehearse_2026,
+  author    = {Gorla, Jagadeesh Kumar and Mohandas Nayak, Rohith and Kamath, Navaneeth},
+  title     = {Rehearse, Don't Guess: Predicting Language-Model Training Results on {AWS} {Trainium}},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24015047},
+  url       = {https://doi.org/10.5281/zenodo.24015047},
+  note      = {Preprint}
+}
+
 @software{frontierforge_2026,
   author  = {Gorla, Jagadeesh Kumar},
   title   = {FrontierForge: a training-run simulator and exact-oracle score prediction},
