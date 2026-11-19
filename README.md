@@ -13,6 +13,7 @@ A simulator, a calibration method and a best recipe from Phase 1 of the AWS Trai
 [![Gradio](https://img.shields.io/badge/UI-Gradio-F97316.svg)](space/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--2270--831X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2270-831X)
 [![Paper DOI](https://img.shields.io/badge/paper%20DOI-10.5281%2Fzenodo.24015047-1682D4.svg)](https://doi.org/10.5281/zenodo.24015047)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=bpOZu6oAAAAJ)
 
 [Quick start](#quick-start) &middot; [Results](#results) &middot; [Use it on your own runs](#use-it-on-your-own-runs) &middot; [Findings](#key-findings-tldr) &middot; [Limitations](#honest-limitations) &middot; [Cite](#cite-this-work)
 
@@ -302,7 +303,8 @@ tests/                 392 tests (385 pass, 7 skip: 5 need the private chip harv
 
 ## Cite this work
 
-Author: Jagadeesh Kumar Gorla ([ORCID 0009-0002-2270-831X](https://orcid.org/0009-0002-2270-831X)).
+Author: Jagadeesh Kumar Gorla ([ORCID 0009-0002-2270-831X](https://orcid.org/0009-0002-2270-831X),
+[Google Scholar](https://scholar.google.com/citations?user=bpOZu6oAAAAJ)).
 
 If `ffsim`, the exact-oracle method or the findings help your work, please cite the paper, and the software if you
 use the code ([`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it). The paper is on Zenodo
